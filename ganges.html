@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<head> 
+	<meta charset="UTF-8">
+<link rel="icon" href="logo/logo.png"   sizes="any" type="image/png">
+<title> Go discover that flow! </title> 
+    <link rel="stylesheet" type="text/css" href="ganges.css">
+	
+	
+	<style>#mapid { height: 500px;width: 100%; font-family: "niveau grotesk regular";}</style>
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin="">
+	</script>	
+	
+</head>  
+<body>
+
+	<a href="Homepage.html">
+<div class= "logo"><img src="logo/logo.png" style= "width: 70px" ></div>
+</a>
+<h1>Go discover that flow!
+	
+	<!-- Navbar -->
+
+<div class="dropdown">
+ <a>Ganges</a>
+  <div class="dropdown-content">
+    <a href="ganges.html">Nature</a>
+    <a href="ganges.html">Urban</a>
+  </div>
+</div>
+	
+	<div class="dropdown">
+  <a> Paraná</a>
+  <div class="dropdown-content">
+    
+	  <a href="parana.html">Nature</a>
+    <a href="parana.html">Urban</a>
+  </div>
+</div>
+	
+	</h1>
+	<!-- Navbar -->
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="foto/poort.jpg" style="width:100%">
+  </div>
+
+<div class="mySlides fade">
+  <img src="foto/scooter.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="foto/afval.jpg" style="width:100%">
+  </div>
+	
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	
+<div class="inleiding">
+<p>De Ganges Delta is een rivierdelta die in de Zuid-Aziatische regio Bengalen (India) uitmondt in de Golf van Bengalen. Deze delta is de grootste ter wereld met een oppervlakte van maar liefst meer dan 105.000 vierkante kilometer. Dit is 2,5x zo groot als heel Nederland! (wow) De bijnaam van dit gebied is ‘De Groene Delta’ omdat het een van de meest vruchtbare gebieden is van de wereld. In het straatbeeld zie je dit terug op de vele marktjes waar inwoners hun eigen verbouwde/gemaakte spullentjes tentoonstellen en verkopen. De Delta mondt uit in de Golf van Bengalen wat dan weer de grootste baai ter wereld is. 
+In de regio wonen tussen de 125 en 143 miljoen mensen. Dit maakt dat een groot gedeelte van de delta een bevolkingsdichtheid heeft van meer dan 200 personen per vierkante kilometer. 
+Een indrukwekkend gebied dus!
+</p>
+</div>
+	
+<div class= "oranje">
+</div>
+	
+<div class="Nature"> nature</div>
+	
+	
+<div class="geografie">
+<h2>Geografie</h2>
+	<p>De Delta heeft de vorm van een boog. Er stromen rivieren vanuit Bangladesh, India, Bhutaan, China en Nepal doorheen. Deze rivieren beginnen in de Himalaya wat er voor zorgt dat ze veel sediment met zich meebrengen op weg naar beneden. Dit maakt ook dat de rivieren tijdens verschillende tijden van het jaar verschillende hoeveelheden water vervoeren. Als het warm is dan smelt de sneeuw op de toppen van de bergen en nemen ze grootte hoeveelheden water mee. Het meegenomen sediment (stukjes zand en klei) zakt in het estuarium (de plek waar de rivieren uitkomen in de zee) naar de bodem omdat de stroomsnelheid van de rivier daar veel lager is, het water gaat tenslotte niet meer naar beneden maar stroomt horizontaal. Soms is er zoveel water dat de boel overstroomt. Al dit water met zijn sediment zorgt er voor dat de grond in het gebied bijzonder vruchtbaar is. Vandaar dus ook dat je al dat lekkere fruit op de markt kunt kopen. <br><br>
+Door al dat sediment vind je in de benedenloop ook mangrove bos. Dit bos kan hier ontstaan doordat er naast de overstromingen ook sprake is van getijde werking waardoor het zoute zeewater er ook kan komen, net zoals in Nederland bij eb en vloed. Een mangrove bos is ontzettend mooi door alle tropische dieren en planten die er voor komen. Mangrove kunnen ook alleen maar ontstaan rond de evenaar of langs plekken waar het zeewater warmer is dan normaal. De Ganges delta is dus een super goede plek hiervoor! Dit maakt wel dat heel veel mensen ze willen bezoeken waardoor ze kapot kunnen gaan en beschadigd kunnen raken. Let dus goed op als je een bezoekje gaat brengen dat je dat via een verantwoordelijke organisatie regelt die rekening houdt met het gebied!
+</p>
+	<h2> Klimaat</h2>
+<p>Deze Delta valt onder een tropisch klimaat. De experts op het gebied van klimatologie hebben een definitie hieraan gegeven. Het betekend dat er het hele jaar door een gemiddelde tempratuur is van 18 graden maar ook dat er redelijk veel neerslag valt, vooral in de zomermaanden. Voor je het gebied bezoekt is het dus noodzaak dat je kijkt wanneer je gaat. Als je tegen het einde van het jaar / het begin van het nieuwe jaar gaat heb je dus de minste kans op neerslag en is er ook de minste kans op overstromingen. Het gebied is dus erg kwetsbaar voor natuurgeweld dus het is sowieso van belang dat je de verwachtingen voor de periode naar keuze even checkt van te voren. </p>
+	</div>	
+	
+<div class= "rood">
+</div>
+<div class="insta">
+	<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/B67MddcAuY_/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/B67MddcAuY_/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> Dit bericht bekijken op Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/B67MddcAuY_/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Een bericht gedeeld door Calcutta Canvas (@calcuttacanvas)</a> op <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2020-01-05T04:41:11+00:00">4 Jan 2020 om 8:41 (PST)</time></p></div></blockquote> <script async src="https://www.instagram.com/embed.js"></script></div>
+<div class="Urban"> Urban</div>
+	
+<div class="Urban2">
+<h3>Cultuurhistorie</h3>
+<p>Kolkata is de grote stad in de regio. De naam Kolkata is pas de officiële naam van de stad sinds 2001. Daarvoor was de officiële naam namelijk Calcutta wat en verengelste versie is van deze naam.  Kolkata staat volgens sommige voor het Bengaalse woord Kalikshetra wat “Grond van de god Kali betekend. 
+Kolkata heeft een bewogen geschiedenis achter de rug waarvan je soms nog elementen terug ziet in de stad. Rond 1700 kwam India in handen van de Engelsen. Kolkata was in de begintijden de hoofdstad van de Britste kolonie India maar later werd dat New Delhi.  Kolkata kreeg in eerste instantie deze taak omdat ze op een goede plek lag voor de handel overzees.
+	</p></div>	
+
+
+	
+<div class="Urban1">
+<h3>Wat te doen in Kolkata?</h3>
+<p>Kolkata is dus de grote stad in de regio. <br>Hier is genoeg te doen en te ontdekken. 
+Zie de interactieve kaart hieronder!<br>
+	Als je op een bolletje klikt dan verschijnt er een pop-up met informatie.</p></div>
+
+<!-- dit is die leaflet code kaart -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+		  
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+	 <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+	
+	 <div id="mapid"></div>
+	<script> var mymap = L.map('mapid').setView([22.572646,88.36389499999996],12);L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 14,
+    id: 'mapbox.light',
+    accessToken: 'pk.eyJ1IjoibGlla2UxOCIsImEiOiJjam5yZDd0MnIwMW9wM3FzNXExMHJ6MG5nIn0.iyEfspnssHxzGdZDWa1_aA'
+}).addTo(mymap);
+	var marker = L.marker([
+	 ]).addTo(mymap);marker.bindPopup("<b>La Bomba de Tiempo</b><br>Een 17-delige groep die Argentijnse volkmuziek en samba combineerd met stijlen uit Afrika en Centraal Amerika. Ze spelen iedere maandagavond om 20.00 uur voor enkele uren. Daarna gaat het feest tot in de late uurtjes door in de straten die in de buurt liggen. Perfect begin voor een avondje uit dus.").openPopup()	
+	
+    </script>	
+<div class="footer">
+	
+ <div class="algemeen">Lieke Gensen 2GMD Aeres Hogeschool</div>
+ 
+ <dif class="about"></dif><a href="about.html">About me</a>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+ <dif class="links"></dif><a href="links.html">Gebruikte links</a>
+</div>
+
+</body>
+</html> 
+	
