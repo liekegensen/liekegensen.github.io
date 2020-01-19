@@ -289,6 +289,8 @@ img {vertical-align: middle;}
 .prev:hover, .next:hover {
   background-color: #E44343;
 }
+@media screen and (max-width: 600px) {
+	.prev, .next{display: none}}
 
 /* Container holding the image and the text */
 .container {
