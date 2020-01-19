@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <head> 
 	<meta charset="UTF-8">
+	<meta name="description" content="Website waarop de Ganges en Paraná delta met elkaar vergeleken worden. ">
+    <meta name="keywords" content="Paraná,Ganges,Delta,India, Argentinië, Buenos Aires, Kalkutta, Vakantie, Reizen, Zuid-Amerika, Azië, rivier,Lieke, Gensen, Geo,Media&Design, lieke, gensen, gmd, GMD">
+    <meta name="author" content="Lieke Gensen">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="logo/logo.png"   sizes="any" type="image/png">
 <title> Go discover that flow! </title> 
-    <link rel="stylesheet" type="text/css" href="ganges.css">
+    <link rel="stylesheet" type="text/css" href="css/ganges.css">
 	
 	
 	<style>#mapid { height: 500px;width: 100%; font-family: "niveau grotesk regular";}</style>
@@ -15,7 +19,7 @@
 </head>  
 <body>
 
-	<a href="Homepage.html">
+	<a href="index.html">
 <div class= "logo"><img src="logo/logo.png" style= "width: 70px" ></div>
 </a>
 <h1>Go discover that flow!
@@ -23,7 +27,7 @@
 	<!-- Navbar -->
 
 <div class="dropdown">
- <a>Ganges</a>
+  <a href="ganges.html">Ganges</a>
   <div class="dropdown-content">
     <a href="ganges.html">Nature</a>
     <a href="ganges.html">Urban</a>
@@ -31,10 +35,9 @@
 </div>
 	
 	<div class="dropdown">
-  <a> Paraná</a>
+  <a href="parana.html">Paraná</a>
   <div class="dropdown-content">
-    
-	  <a href="parana.html">Nature</a>
+    <a href="parana.html">Nature</a>
     <a href="parana.html">Urban</a>
   </div>
 </div>
@@ -54,7 +57,7 @@
 </div>
 
 <div class="mySlides fade">
-  <img src="foto/afval.jpg" style="width:100%">
+  <img src="foto/overstroming.jpg" style="width:100%">
   </div>
 	
 
@@ -98,11 +101,48 @@ function showSlides(n) {
 </script>
 	
 <div class="inleiding">
-<p>De Ganges Delta is een rivierdelta die in de Zuid-Aziatische regio Bengalen (India) uitmondt in de Golf van Bengalen. Deze delta is de grootste ter wereld met een oppervlakte van maar liefst meer dan 105.000 vierkante kilometer. Dit is 2,5x zo groot als heel Nederland! (wow) De bijnaam van dit gebied is ‘De Groene Delta’ omdat het een van de meest vruchtbare gebieden is van de wereld. In het straatbeeld zie je dit terug op de vele marktjes waar inwoners hun eigen verbouwde/gemaakte spullentjes tentoonstellen en verkopen. De Delta mondt uit in de Golf van Bengalen wat dan weer de grootste baai ter wereld is. 
+<p>De Ganges Delta is een rivierdelta die in de Zuid-Aziatische regio Bengalen (India) uitmondt in de Golf van Bengalen. Deze delta is de grootste ter wereld met een oppervlakte van maar liefst meer dan 105.000 vierkante kilometer. Dit is 2,5x zo groot als heel Nederland! (wow) De bijnaam van dit gebied is ‘De Groene Delta’ omdat het één van de meest vruchtbare gebieden is van de wereld. In het straatbeeld zie je dit terug op de vele marktjes waar inwoners hun eigen verbouwde/gemaakte spulletjes tentoonstellen en verkopen. De Delta mondt uit in de Golf van Bengalen wat dan weer de grootste baai ter wereld is. 
 In de regio wonen tussen de 125 en 143 miljoen mensen. Dit maakt dat een groot gedeelte van de delta een bevolkingsdichtheid heeft van meer dan 200 personen per vierkante kilometer. 
 Een indrukwekkend gebied dus!
 </p>
 </div>
+	
+<!-- Trigger the Modal -->
+<img id="myImg" src="foto/infographic_Ganges.jpg" alt="Infographic met meer informatie over de Ganges Delta">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+	
+	<script> // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}</script>	
 	
 <div class= "oranje">
 </div>
@@ -112,11 +152,11 @@ Een indrukwekkend gebied dus!
 	
 <div class="geografie">
 <h2>Geografie</h2>
-	<p>De Delta heeft de vorm van een boog. Er stromen rivieren vanuit Bangladesh, India, Bhutaan, China en Nepal doorheen. Deze rivieren beginnen in de Himalaya wat er voor zorgt dat ze veel sediment met zich meebrengen op weg naar beneden. Dit maakt ook dat de rivieren tijdens verschillende tijden van het jaar verschillende hoeveelheden water vervoeren. Als het warm is dan smelt de sneeuw op de toppen van de bergen en nemen ze grootte hoeveelheden water mee. Het meegenomen sediment (stukjes zand en klei) zakt in het estuarium (de plek waar de rivieren uitkomen in de zee) naar de bodem omdat de stroomsnelheid van de rivier daar veel lager is, het water gaat tenslotte niet meer naar beneden maar stroomt horizontaal. Soms is er zoveel water dat de boel overstroomt. Al dit water met zijn sediment zorgt er voor dat de grond in het gebied bijzonder vruchtbaar is. Vandaar dus ook dat je al dat lekkere fruit op de markt kunt kopen. <br><br>
+	<p>De Delta heeft de vorm van een boog. Er stromen rivieren vanuit Bangladesh, India, Bhutaan, China en Nepal doorheen. Deze rivieren beginnen in de Himalaya wat er voor zorgt dat ze veel sediment (stukjes zand en klei) met zich meebrengen op weg naar beneden. Dit maakt ook dat de rivieren tijdens verschillende tijden van het jaar verschillende hoeveelheden water vervoeren. Als het warm is dan smelt de sneeuw op de toppen van de bergen en nemen ze grote hoeveelheden water mee. Het meegenomen sediment  zakt in het estuarium (de plek waar de rivieren uitkomen in de zee) naar de bodem omdat de stroomsnelheid van de rivier daar veel lager is, het water gaat tenslotte niet meer naar beneden maar stroomt horizontaal. Soms is er zoveel water dat de boel overstroomt. Al dit water met zijn sediment zorgt er voor dat de grond in het gebied bijzonder vruchtbaar is. Vandaar dus ook dat je al dat lekkere fruit op de markt kunt kopen. <br><br>
 Door al dat sediment vind je in de benedenloop ook mangrove bos. Dit bos kan hier ontstaan doordat er naast de overstromingen ook sprake is van getijde werking waardoor het zoute zeewater er ook kan komen, net zoals in Nederland bij eb en vloed. Een mangrove bos is ontzettend mooi door alle tropische dieren en planten die er voor komen. Mangrove kunnen ook alleen maar ontstaan rond de evenaar of langs plekken waar het zeewater warmer is dan normaal. De Ganges delta is dus een super goede plek hiervoor! Dit maakt wel dat heel veel mensen ze willen bezoeken waardoor ze kapot kunnen gaan en beschadigd kunnen raken. Let dus goed op als je een bezoekje gaat brengen dat je dat via een verantwoordelijke organisatie regelt die rekening houdt met het gebied!
 </p>
 	<h2> Klimaat</h2>
-<p>Deze Delta valt onder een tropisch klimaat. De experts op het gebied van klimatologie hebben een definitie hieraan gegeven. Het betekend dat er het hele jaar door een gemiddelde tempratuur is van 18 graden maar ook dat er redelijk veel neerslag valt, vooral in de zomermaanden. Voor je het gebied bezoekt is het dus noodzaak dat je kijkt wanneer je gaat. Als je tegen het einde van het jaar / het begin van het nieuwe jaar gaat heb je dus de minste kans op neerslag en is er ook de minste kans op overstromingen. Het gebied is dus erg kwetsbaar voor natuurgeweld dus het is sowieso van belang dat je de verwachtingen voor de periode naar keuze even checkt van te voren. </p>
+<p>Deze Delta valt onder een tropisch klimaat. De experts op het gebied van klimatologie hebben een definitie hieraan gegeven. Het betekent dat er het hele jaar door een gemiddelde tempratuur is van 18 graden maar ook dat er redelijk veel neerslag valt, vooral in de zomermaanden. Voor je het gebied bezoekt is het dus noodzaak dat je kijkt wanneer je gaat. Als je tegen het einde van het jaar / het begin van het nieuwe jaar gaat heb je dus de minste kans op neerslag en is er ook de minste kans op overstromingen. Het gebied is erg kwetsbaar voor natuurgeweld dus het is van belang dat je de verwachtingen voor de periode naar keuze even checkt van te voren. </p>
 	</div>	
 	
 <div class= "rood">
@@ -127,8 +167,9 @@ Door al dat sediment vind je in de benedenloop ook mangrove bos. Dit bos kan hie
 	
 <div class="Urban2">
 <h3>Cultuurhistorie</h3>
-<p>Kolkata is de grote stad in de regio. De naam Kolkata is pas de officiële naam van de stad sinds 2001. Daarvoor was de officiële naam namelijk Calcutta wat en verengelste versie is van deze naam.  Kolkata staat volgens sommige voor het Bengaalse woord Kalikshetra wat “Grond van de god Kali betekend. 
-Kolkata heeft een bewogen geschiedenis achter de rug waarvan je soms nog elementen terug ziet in de stad. Rond 1700 kwam India in handen van de Engelsen. Kolkata was in de begintijden de hoofdstad van de Britste kolonie India maar later werd dat New Delhi.  Kolkata kreeg in eerste instantie deze taak omdat ze op een goede plek lag voor de handel overzees.
+<p>Kolkata is de grote stad in de regio. De naam Kolkata is pas de officiële naam van de stad sinds 2001. Daarvoor was de officiële naam namelijk Calcutta wat een verengelste versie is van deze naam.  Kolkata staat volgens sommige voor het Bengaalse woord Kalikshetra wat “Grond van de god Kali" betekend. 
+Kolkata heeft een bewogen geschiedenis achter de rug waarvan je soms nog elementen terug ziet in de stad. Rond 1700 kwam India in handen van de Engelsen. Kolkata was in de begintijd de hoofdstad van de Britste kolonie India maar later werd dat New Delhi.  Kolkata kreeg in eerste instantie deze taak omdat ze op een goede plek lag voor de handel overzee. Voor de Engelsen waren er de Portugezen. Door onder andere de Portugezen kennen wij het originele kastenstelsel op een verkeerde manier. Zij hebben namelijk het Sanscriet woord "varna" vertaald met het Portugese woord "casta" wat afkomst, stam en geslacht betekend. Hierdoor heerst er bij sommigen het idee dat het kastenstelsel daarop gebaseerd is. Van origine is het kastenstelsel gebaseerd op geestelijke verscheidenheid en karma. Nu is het zo dat er in huidig India wel naar kasten wordt gekeken, deels op de Portugese manier. Je komt in een kaste terecht vanwege je afkomst en het is niet mogelijk om van kaste te veranderen over je leven heen. Momenteel wordt voornamelijk op het platteland het kastenstelsel nog gebruikt terwijl dat in de grote steden aan het afzwakken is .
+<br>
 	</p></div>	
 
 
@@ -152,14 +193,30 @@ Zie de interactieve kaart hieronder!<br>
 	 <div id="mapid"></div>
 	<script> var mymap = L.map('mapid').setView([22.572646,88.36389499999996],12);L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 14,
+    maxZoom: 20,
     id: 'mapbox.light',
     accessToken: 'pk.eyJ1IjoibGlla2UxOCIsImEiOiJjam5yZDd0MnIwMW9wM3FzNXExMHJ6MG5nIn0.iyEfspnssHxzGdZDWa1_aA'
 }).addTo(mymap);
-	var marker = L.marker([
-	 ]).addTo(mymap);marker.bindPopup("<b>La Bomba de Tiempo</b><br>Een 17-delige groep die Argentijnse volkmuziek en samba combineerd met stijlen uit Afrika en Centraal Amerika. Ze spelen iedere maandagavond om 20.00 uur voor enkele uren. Daarna gaat het feest tot in de late uurtjes door in de straten die in de buurt liggen. Perfect begin voor een avondje uit dus.").openPopup()	
+	var marker = L.marker([22.5849375,88.35913989999995
+	 ]).addTo(mymap);marker.bindPopup("<b>Jorashankho Thakurbari </b><br>Hier is het voormalige huis van Nobelprijswinnaar Rabindranath Thakur. Zijn huis is nu omgebouwd tot museum. Als je tijdens het Holifeest komt zijn er mega uitgebreide vieringen te zien waar jij ook mag kijken als toerist.").openPopup()	
 	
-    </script>	
+	var marker = L.marker([22.5442428,88.34668179999994
+	 ]).addTo(mymap);marker.bindPopup("<b>St. Paul’s Cathedral Church</b><br>Eén van de mooiste kerken van heel de stad. Tijdens kerst en oud & nieuw is de hele kerk mooi versierd. Zo kom je in de warme temperaturen toch nog een beetje in de decembersferen.").openPopup()	
+		
+	var marker = L.marker([22.5578858,88.35112679999997
+	 ]).addTo(mymap);marker.bindPopup("<b>Indian Museum</b><br>Je vindt hier van alles, van kunst tot mummies en van stenen tot wapens. Daarbij is het ook nog eens één van de oudste musea van heel Azië en India. Zeker een goed idee om dit museum een bezoekje te brengen dus, al helemaal als het regent.").openPopup()	
+	
+	var marker = L.marker([22.5851477,88.34680530000003
+	 ]).addTo(mymap);marker.bindPopup("<b>Howrah Bridge </b><br>Deze brug heeft zich over de tijd misschien wel ontwikkeld tot het symbool van de stad. Iedere dag gaan bijna 5000 vervoersmiddelen de brug over. Vooral als in de ochtend de zon opkomt en licht schijnt over de andere kant van de stad ziet het er fantastisch mooi uit!").openPopup()	
+		
+	var marker = L.marker([22.6321853,88.35589119999997
+	 ]).addTo(mymap);marker.bindPopup("<b>Belur Math </b><br>Naast de Hoogly Rivier ligt deze gigantische Hindoeïstische tempel. Ongeveer 80% van de gehele Indiase bevolking is Hindoeïstisch. Als je geïnteresseerd bent in religie en graag een dagje wilt rondbrengen op een spirituele plek dan is dit waar je zijn moet.").openPopup()	
+		
+	var marker = L.marker([22.6549087,88.35753069999998
+	 ]).addTo(mymap);marker.bindPopup("<b>Dakhineshwar Kali Temple </b><br>Eén van de bekendste tempels van de stad. Hij is ter ere van de godin Kali gesticht maar ook andere goden zoals Shiva en Krishna hebben hier een plek. Er zijn twaalf schrijnen en elke schrijn  wordt gebruikt voor het vereren van een andere god. Als je de tijd hebt kun je vanaf hier ook met de boot naar Belur Math.").openPopup()		
+</script>	
+	
+	
 <div class="footer">
 	
  <div class="algemeen">Lieke Gensen 2GMD Aeres Hogeschool</div>
