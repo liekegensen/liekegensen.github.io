@@ -236,7 +236,7 @@ position: absolute;
 }
 
 @media screen and (max-width: 600px) {
-  .dropdown-content {
+  .dropdown-content a {
    display: none;
   }
 }
